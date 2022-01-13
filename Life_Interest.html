@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<title>Interest</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body,h1 {font-family: courier}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #777;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+</style>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-white w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-Light Gray w3-xxlarge w3-padding w3-display-topright" style="padding:6px 20px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="Something_About.html" class="w3-bar-item w3-button w3-text-Dark Gray w3-hover-Light Gray">About</a>
+    <a href="Something_Life.html" class="w3-bar-item w3-button w3-text-Dark Gray w3-hover-Light Gray">Life</a>
+    <a href="Something_Contact.html" class="w3-bar-item w3-button w3-text-Dark Gray w3-hover-Light Gray">Contact</a>
+    <a href="Something.html" class="w3-bar-item w3-button w3-text-grey w3-hover-Dark Gray">Back</a>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom" w3-text-Dark Gray>
+  <h1><b>Interest</b></h1>
+  <hr>
+  <p><b>在課堂以外的我</b></p>
+
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div>
+<div class="responsive">
+  <div class="gallery">
+      <img src="Pic/Reading_1.jpg" alt="Reading" width="600" height="400">
+
+    <div class="desc">沒事都在看書(不限類型)還有看youtube</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="Pic/Music_1.jpg" alt="Music" width="400" height="400">
+    <div class="desc">聽聽音樂練練曲</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="Pic/Crystal_1.jpg" alt="Crystal" width="600" height="400">
+      <img src="Pic/Crystal_2.jpg" alt="Crystal" width="600" height="400">
+    <div class="desc">有在蒐集一些晶礦</div>
+  </div>
+</div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="Pic/Game_1.jpg" alt="Game" width:100% >
+      <img src="Pic/Game_2.jpg" alt="Game" width:100% >
+      <img src="Pic/Game_3.jpg" alt="Game"width:100% >
+    <div class="desc">玩遊戲(最近在努力當個小法師中)</div>
+  </div>
+</div>
+<!-- End Page Content -->
+</div>
+
+
+ 
+<script>
+
+// Open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.width = "100%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>

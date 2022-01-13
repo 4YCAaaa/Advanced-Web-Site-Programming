@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Something</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color:cornsilk;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+
+p{color:black;font-family:'courier';font-size:16px;}
+h2{color:black;font-family:'courier';font-size:30px;}
+
+a:link, a:visited {
+  background-color: lightgoldenrodyellow;
+  color: goldenrod;
+  border-radius: 10px 10px 10px 10px;
+  border: 2px solid goldenrod;
+  padding: 8px 20px;
+  font-family:courier;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: lightgoldenrodyellow;
+  color: gold;
+  border: 2px solid gold;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column">
+    <p><img src="Pic/outputtt.gif"></p> 
+  </div>
+  
+  <div class="column">
+  <br><br>
+    <h2>Something</h2>
+    <br>
+    <p>Dark and difficult times lie ahead. Soon we must all<br> face the choice between what is right and what is easy.</p>
+    <br>
+    <hr size="3px" align ="center" width="60%">
+    
+    
+    <div class="row">
+  <div class="col-4 col-s-4 menu">
+<br><br><br>
+	  <a href="Something_About.html" > &nbsp;About&nbsp;</a><br><br><br>
+    <a href="Something_Life.html"> &emsp;Life&nbsp;</a><br><br><br>
+    <a href="Something_Contact.html" >Contact</a><br><br><br>
+    <a href="logout.php" >Log Out</a>
+  </div>
+  
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous">		</script>
+    <br><br><br><br>
+	<i class="fas fa-feather-alt"style="font-size:20px;color:#66B3FF;"></i>
+	<i class="fab fa-twitter"style="font-size:20px;color:#0080FF;"></i>
+	<i class="fab fa-github"style="font-size:20px;color:#005AB5;"></i>
+	<i class="fab fa-facebook"style="font-size:20px;color:#0000C6;"></i>
+  </div>
+
+  <p id="demo"></p>
+
+  <script>
+  var myVar = setInterval(myTimer, 1000);
+  
+  function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+  }
+  </script>
+</div>
+
+</body>
+</html>

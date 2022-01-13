@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+  <title>Contact</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color:cornsilk;
+}
+
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:'courier';
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+  text-align: left;
+  font-family:'courier'
+}
+
+a:link, a:visited {
+  background-color: lightgoldenrodyellow;
+  color: goldenrod;
+  border-radius: 10px 10px 10px 10px;
+  border: 2px solid goldenrod;
+  padding: 8px 20px;
+  font-family:courier;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: lightgoldenrodyellow;
+  color: gold;
+  border: 2px solid gold;
+}
+h2{color:black;font-family:'courier';font-size:30px;}
+index{color:black;font-family:'courier';font-size:30px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+input[type=text], select {
+  font-family:'courier';
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  font-family:'courier';
+  width: 100%;
+  background-color: lightgoldenrodyellow;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+
+
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column">
+    <p><img src="紀錄" alt="Record"></p> 
+
+
+  </div>
+  
+  <div class="column">
+  <br><br>
+    <h2>CONTACT</h2>
+    <hr size="3px" align="left" width="60%">
+    <br>
+    
+    <marquee scrollamount="7" behavior="altemate">Thank you for your guidance. </marquee><br>
+
+<div>
+  <select>
+  <form action="/action_page.php"><br>
+    <label for="fname">NAME</label><br>
+    <input type="text" id="fname" name="name" placeholder="Your name..."><br><br>
+
+    <label for="email">EMAIL</label><br>
+    <input type="text" id="lname" name="email" placeholder="Your email..."><br><br>
+
+    <label for="message">MESSAGE</label><br>
+    <input type="text" id="lname" name="email" placeholder="Your opinion...">
+  
+    </select><br><br><br><br><br>
+    <a href="Contact_SendMessage.html">SEND MESSAGE</a>
+	
+    <a href="Something.html">Back</a>
+    
+  </form>
+</div>
+</body>
+</html>
