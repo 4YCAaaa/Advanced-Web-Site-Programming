@@ -14,4 +14,4 @@
 平時作業 | https://github.com/4YCAaaa/Advanced-Web-Site-Programming/tree/main/SomeTryyyy
 期末報告 | https://github.com/4YCAaaa/Advanced-Web-Site-Programming/blob/main/SomeTryyyy/README.md
 期末作業 | https://github.com/4YCAaaa/Advanced-Web-Site-Programming/tree/19211706af165970d36f503e1dd9b9bd7b05d663/SomeTryyyy
-額外期末練習 | 
+額外期末練習 | https://github.com/4YCAaaa/Advanced-Web-Site-Programming/tree/main/SomeTryyyyy
