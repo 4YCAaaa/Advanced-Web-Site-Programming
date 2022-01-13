@@ -10,5 +10,5 @@
 課程內容 | https://gitlab.com/ccc110/ws?fbclid=IwAR1B3PHZe3uA6uMT_2aaQ3EBPwyjDneYfIuvGneQLjLpLnn2e8LEqho6qVA
 筆記 | https://github.com/4YCAaaa/Advanced-Web-Site-Programming/wiki
 平時作業 | https://github.com/4YCAaaa/Advanced-Web-Site-Programming/blob/main/SomeTry.js
-期末作業 | 
+期末作業 | 筆記與心得:https://hackmd.io/hbAks4UbSpSjDYbfOqh-kw
 
