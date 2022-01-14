@@ -18,8 +18,6 @@ phpmyadmin設定
 
 建立資料庫與資料表
 
-![](https://i.imgur.com/o3i8K8E.png)
-
 ![](https://i.imgur.com/uG2kp9O.png)
 
 ![](https://i.imgur.com/wu99H5z.png)
@@ -38,7 +36,8 @@ phpmyadmin設定
 
 ![](https://i.imgur.com/UgIxHs6.png)
 
-原先規劃是上方為帳號的登出與刪除，中間為歡迎使用者(會依據不同帳號做顯示)，左方為輸入待辦事項與顯示已輸入處，右方則是該月份的日期，目前的進度是可註冊新使用者登入與刪除使用者並輸入待辦事項，最終的目標是複合型的行事曆與待辦事項的互動網頁。
+原先規劃是上方為帳號的登出與刪除，中間為歡迎使用者(會依據不同帳號做顯示)，左方為輸入待辦事項與顯示已輸入處，右方則是該月份的日期，目前的進度是可註冊新使用者登入與刪除使用者並輸入待辦事項，最終的目標是複合型的行事曆與待辦事項的互動網頁。登入與登出與期末報告相同，但新增了刪除帳號的功能，有與資料庫做連結，可以結合該使用者id去做新增待辦事項。![image](https://user-images.githubusercontent.com/79677971/149451089-65df8dd7-1b2e-4da9-9e81-e63fbb4f4e94.png)
+
 
 後來參考 [使用 XAMPP 和 ngrok 的臨時虛擬主機](https://medium.com/front-end-weekly/temporary-web-hosting-using-xampp-and-ngrok-86a28d0a1073) 的步驟下載 [ngrok](https://ngrok.com/download) 並建立連線 [期末報告](https://8c28-2001-b400-e781-b466-7c63-12c1-ffeb-f50e.ngrok.io/login.php) 的對外連接。
 
