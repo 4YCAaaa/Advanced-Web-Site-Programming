@@ -34,7 +34,7 @@ phpmyadmin設定
 
 # 有先看過各網站的授權，但若仍有冒犯，深感抱歉，請告知我，我會將其撤下。
 
-期中後想嘗試新的架站方式，所以在老師所教授的課程內容外，嘗試使用XAMPP去做架站，並在期末的時候第一次嘗試使用PHP去作呈現，參考了 [實作簡單登入系統](https://medium.com/@kuoandy1/%E5%BE%8C%E7%AB%AF%E8%83%BD%E5%8A%9B%E5%9F%B9%E9%A4%8A-%E4%B8%80-%E5%AF%A6%E4%BD%9C%E7%B0%A1%E5%96%AE%E7%99%BB%E5%85%A5%E7%B3%BB%E7%B5%B1-74c22ebf09b6) 的製作邏輯思路與[PHP 語法、資料庫 MySQL](https://hackmd.io/@Heidi-Liu/note-be101-php-and-mysql) 經驗參考後，將上學期的程式碼整理，並新增了登入與登出的功能。除了登入與登出有成功使用PHP實做出來並應用外，有更進一步的嘗試使用PHP去製作待辦清單，以下是我目前的完成狀態:
+期中後想嘗試新的架站方式，所以在老師所教授的課程內容外，嘗試使用XAMPP去做架站，並在期末的時候第一次嘗試使用PHP去作呈現，參考了 [實作簡單登入系統](https://medium.com/@kuoandy1/%E5%BE%8C%E7%AB%AF%E8%83%BD%E5%8A%9B%E5%9F%B9%E9%A4%8A-%E4%B8%80-%E5%AF%A6%E4%BD%9C%E7%B0%A1%E5%96%AE%E7%99%BB%E5%85%A5%E7%B3%BB%E7%B5%B1-74c22ebf09b6) 的製作邏輯思路與[PHP 語法、資料庫 MySQL](https://hackmd.io/@Heidi-Liu/note-be101-php-and-mysql) 經驗參考後，將上學期的程式碼整理，並延伸新增了登入與登出的功能。除了登入與登出有成功使用PHP實做出來並應用外，有更進一步的嘗試使用PHP去製作待辦清單，以下是我目前的完成狀態:
 
 ![](https://i.imgur.com/UgIxHs6.png)
 
