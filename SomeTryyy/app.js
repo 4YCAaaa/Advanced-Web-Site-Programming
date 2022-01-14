@@ -3,17 +3,18 @@ import * as render from './render.js'
 
 const posts = [
   {id:0, date:'10/10', title:'放假', body:'開心'},
-  {{id:1, date:'11/1', title:'考試', body:'想睡又餓'},
+  {id:1, date:'11/1', title:'考試', body:'想睡又餓'},
+  {id:2, date:'1/14', title:'悲傷', body:'期末考完隔周要meeting QAQ'},
 ];
 
 
 const router = new Router();
 
 
-router.get('/', list)  //
-  .post('/post/new', add)
+router.get('/', list)  
   .get('/post/:id', show)
-  .post('/post', create);
+  .post('/post', create)
+  .post('/post/new', add);
 
 const app = new Application();
 app.use(router.routes());
@@ -21,10 +22,6 @@ app.use(router.allowedMethods());
 
 async function list(ctx) {
   ctx.response.body = await render.list(posts);
-}
-
-async function add(ctx) {
-  ctx.response.body = await render.newPost();
 }
 
 async function show(ctx) {   
@@ -48,6 +45,12 @@ async function create(ctx) {
     post.id = id;
     ctx.response.redirect('/');
   }
+}
+
+async function add(ctx) {
+  ctx.response.body = await render.newPost();
+}
+
 
 console.log("Start at :http://127.0.0.1:8000")
-await app.listen({port: 8000})
+await app.listen({port: 80})
