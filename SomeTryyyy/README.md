@@ -32,11 +32,11 @@ phpmyadmin設定
 
 # 有先看過各網站的授權，但若仍有冒犯，深感抱歉，請告知我，我會將其撤下。
 
-期中後想嘗試新的架站方式，所以在老師所教授的課程內容外，嘗試使用XAMPP去做架站，並在期末的時候第一次嘗試使用PHP去作呈現，參考了 [實作簡單登入系統](https://medium.com/@kuoandy1/%E5%BE%8C%E7%AB%AF%E8%83%BD%E5%8A%9B%E5%9F%B9%E9%A4%8A-%E4%B8%80-%E5%AF%A6%E4%BD%9C%E7%B0%A1%E5%96%AE%E7%99%BB%E5%85%A5%E7%B3%BB%E7%B5%B1-74c22ebf09b6) 的製作邏輯思路與[PHP 語法、資料庫 MySQL](https://hackmd.io/@Heidi-Liu/note-be101-php-and-mysql) 經驗參考後，將上學期的程式碼整理，並延伸新增了登入與登出的功能。除了登入與登出有成功使用PHP實做出來並應用外，有更進一步的嘗試使用PHP去製作待辦清單，以下是我目前的完成狀態:
+期中後想嘗試新的架站方式，所以在老師所教授的課程內容外，嘗試使用XAMPP去做架站，並在期末的時候第一次嘗試使用PHP去作呈現，參考了 [實作簡單登入系統](https://medium.com/@kuoandy1/%E5%BE%8C%E7%AB%AF%E8%83%BD%E5%8A%9B%E5%9F%B9%E9%A4%8A-%E4%B8%80-%E5%AF%A6%E4%BD%9C%E7%B0%A1%E5%96%AE%E7%99%BB%E5%85%A5%E7%B3%BB%E7%B5%B1-74c22ebf09b6) 的製作邏輯思路與[PHP 語法、資料庫 MySQL](https://hackmd.io/@Heidi-Liu/note-be101-php-and-mysql) 經驗參考後，將上學期的程式碼整理，並延伸新增了登入與登出的功能。除了登入與登出有成功使用PHP實做出來並應用外，有更進一步的閱讀參考 [JS初心者](https://medium.com/coding-girl-life/js%E5%88%9D%E5%BF%83%E8%80%85-%E5%B8%B6%E4%BD%A0%E7%94%A8localstorage%E5%81%9A%E5%87%BA%E4%B8%80%E5%80%8B%E9%99%BD%E6%98%A5%E7%89%88-to-do-list-%E5%BE%85%E8%BE%A6%E6%B8%85%E5%96%AE-1-8342dc1ea7d0) [後端教學筆記](https://www.misterq.cc/web-application/self-study/todo-list/) 與 [實作Todolist](https://ithelp.ithome.com.tw/articles/10208096)嘗試使用PHP去製作待辦清單，以下附圖是我目前的完成狀態:
 
 ![](https://i.imgur.com/UgIxHs6.png)
 
-原先規劃是上方為帳號的登出與刪除，中間為歡迎使用者(會依據不同帳號做顯示)，左方為輸入待辦事項與顯示已輸入處，右方則是該月份的日期，目前的進度是可註冊新使用者登入與刪除使用者並輸入待辦事項，最終的目標是複合型的行事曆與待辦事項的互動網頁。登入與登出與期末報告相同，但新增了刪除帳號的功能，有與資料庫做連結，可以結合該使用者id去做新增待辦事項。![image](https://user-images.githubusercontent.com/79677971/149451089-65df8dd7-1b2e-4da9-9e81-e63fbb4f4e94.png)
+原先規劃是上方為帳號的登出與刪除，中間為歡迎使用者(會依據不同帳號做顯示)，左方為輸入待辦事項與顯示已輸入處，右方則是該月份的日期，目前的進度是可註冊新使用者登入與刪除使用者並輸入待辦事項，最終的目標是複合型的行事曆與待辦事項的互動網頁。登入與登出與期末報告程式相似，但新增了刪除帳號的功能，有與資料庫做連結，可以結合已註冊帳號與該使用者id去做新增待辦事項。![image](https://user-images.githubusercontent.com/79677971/149451089-65df8dd7-1b2e-4da9-9e81-e63fbb4f4e94.png)
 
 
 後來參考 [使用 XAMPP 和 ngrok 的臨時虛擬主機](https://medium.com/front-end-weekly/temporary-web-hosting-using-xampp-and-ngrok-86a28d0a1073) 的步驟下載 [ngrok](https://ngrok.com/download) 並建立連線 [期末報告](https://8c28-2001-b400-e781-b466-7c63-12c1-ffeb-f50e.ngrok.io/login.php) 的對外連接。
