@@ -17,6 +17,7 @@ phpmyadmin設定
 
 
 建立資料庫與資料表
+
 ![](https://i.imgur.com/o3i8K8E.png)
 
 ![](https://i.imgur.com/uG2kp9O.png)
