@@ -11,7 +11,7 @@
 筆記 | https://github.com/4YCAaaa/Advanced-Web-Site-Programming/wiki
 平時作業 | https://github.com/4YCAaaa/Advanced-Web-Site-Programming/blob/main/SomeTry.js
 平時作業 | https://github.com/4YCAaaa/Advanced-Web-Site-Programming/tree/main/SomeTryy
-平時作業 | https://github.com/4YCAaaa/Advanced-Web-Site-Programming/tree/main/SomeTryyyy
+平時作業 | https://github.com/4YCAaaa/Advanced-Web-Site-Programming/tree/main/SomeTryyy
 期末報告 | https://github.com/4YCAaaa/Advanced-Web-Site-Programming/blob/main/SomeTryyyy/README.md
 期末作業 | https://8c28-2001-b400-e781-b466-7c63-12c1-ffeb-f50e.ngrok.io/login.php
 額外期末練習 | https://github.com/4YCAaaa/Advanced-Web-Site-Programming/tree/main/SomeTryyyyy
